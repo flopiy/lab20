@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; margin: 2rem; }
+#todo-list { list-style: none; padding: 0; }
+#todo-list li {
+  display: flex; gap: .5rem; align-items: center;
+  padding: .4rem 0; border-bottom: 1px solid #ddd;
+}
+#todo-list li.done span { text-decoration: line-through; color: grey; }
+#loading, #error { margin: 1rem 0; font-weight: bold; }
+#error { color: crimson; }
