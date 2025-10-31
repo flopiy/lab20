@@ -1,5 +1,5 @@
 const DB_URL =
-  'https://<project-id>-default-rtdb.europe-west1.firebasedatabase.app/todos.json';
+  'https://lab20-61374-default-rtdb.firebaseio.com/';
 
 
 const form   = document.getElementById('todo-form');
